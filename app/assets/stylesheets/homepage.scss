@@ -2,15 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .photo {
 
   width: 100%;
   height:700px;
-  object-fit: fill;
-
+  object-fit: cover;
+ 
 }
 
 #homepage_video{
 	padding:0;	
-	margin-top:-20px;
+  	position: relative;
+}
+
+
+.bg{
+	background-image:url("http://sea.blizzard.com/static/_images/layout/nav-bg.png");
+	width:992px;
+	height:150px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size:fill;
+	z-index: 1;
+	bottom:0;
+
 }
